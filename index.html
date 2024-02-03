@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Title -->
+    <script>
+        title = "ɪꜰ ᴅʀᴇᴀᴍꜱ ᴅᴏ ᴄᴏᴍᴇ ᴛʀᴜᴇ ɪ ᴡᴀɴɴᴀ ʜᴜɢ ᴀ ɢɪʀʟ ʙᴇꜰᴏʀᴇ ɪ ᴅɪᴇ";
+        position = 0;
+        function scrolltitle() {
+            document.title = title.substring(position, title.length) + title.substring(0, position); 
+            position++;
+            if (position > title.length) position = 0;
+            titleScroll = window.setTimeout(scrolltitle,170);
+        }
+        scrolltitle();
+    </script>
+    <link rel="icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <a id="h" href="#index">
+        <img src="./assets/denji.png">
+    </a>
+
+        <div class="buttons">
+        <!-- Spotify -->
+        <a href="https://open.spotify.com/playlist/051hb9UBtDktqXjawtuMj4?si=PD08XdJuTRSSPFzKkzSy_g&utm_source=copy-link" target="_blank">
+            <img src="./assets/spotify.png">
+        </a>
+        <!-- Down -->
+        <a href="">
+            <img src="./assets/down.gif">
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/kusinaja/" target="_blank">
+            <img src="./assets/instagram.png">
+        </a>
+    </div>
+    </div>
+    <div class="content" id="index">
+		<a href="#" id="hide"><img src="assets/up.gif"></a>
+		<div class="flexy">
+            <!-- Greetings -->
+			<p class="sechead"><b>/greetings/</b></p>
+			<a class="cell">"Hello everyone, you can call me Kus, I am a Cryptocurrency enthusiast and passionate about Online Games such as FPS and Moba games."</a>
+            <!-- Home -->
+            <p class="sechead"><b>/home/</b></p>
+            <a class="cell" href="https://discord.gg/nongkrong-kita" target="_blank">DISCORD!</a>
+            <a class="cell" href="https://steamcommunity.com/profiles/76561198337347295/" target="_blank">MYSTEAM!</a>
+            <a class="cell" href="https://twitter.com/0xKusKasbor" target="_blank">TWITTER!</a>
+            <a class="cell" href="https://solscan.io/account/63hWjWPENVDZzSny8Xmveg7M7yTowxPyoGYCTmsDRCHW" target="_blank">SOL WALLET</a>
+            <a class="cell" href="https://btcscan.org/address/bc1p3rwr58xderrekruzzaqgdrm530k3r4932er72phj2l04z7mgrdpqd9r469" target="_blank">BTC WALLET</a>
+            <a class="cell" href="https://etherscan.io/address/0x3D79d02288efbF656a696Ccc7486BF6Bcb842366" target="_blank">EVM WALLET</a>
+            <!-- ??? -->
+            <p class="sechead"><b>/about Me!/</b></p>
+			<a class="cell">"I'm just someone who wants to try something once bored or achieved I will leave it."</a>
+            <!-- Notes -->
+            <p class="sechead"><b>/language/</b></p>
+			<a class="cell">"INDONESIA"</a>
+            <a class="cell">"ENGLISH"</a>
+            <a class="cell">"JAPANESE"</a>
+            <!-- Notes -->
+            <p class="sechead"><b>//important notes//</b></p>
+			<a class="cell">"This website design is not completely  made by me!"</a>
+		</div>
+	</div>
+</body>
+</html>
